@@ -16,7 +16,7 @@ def main(alphabet):
     alpha = alphabet.copy()
     random.shuffle(alpha)
     print(Fore.BLUE)
-    print("Dict encrypt : ")
+    print("Dictionary Encrypt : ")
     print({alphabet[i]: alpha[i] for i in range(len(alphabet))})
 
 main(dico)
